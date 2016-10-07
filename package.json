@@ -1,0 +1,16 @@
+{
+  "name": "react-workshop-api",
+  "description": "React Workshop API",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "4.13.4",
+    "body-parser": "1.15.0"
+  },
+  "devDependencies": {
+    "apidoc": "0.15.1"
+  },
+  "scripts" : {
+    "start": "node src/server.js",
+    "doc": "apidoc -i src/ -o docs/"
+  }
+}

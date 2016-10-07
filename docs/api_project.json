@@ -1,0 +1,1 @@
+{  "name": "wines-api",  "version": "1.0.0",  "description": "Wines API",  "title": "Wines API",  "url": "http://localhost:3000/api",  "sampleUrl": false,  "apidoc": "0.2.0",  "generator": {    "name": "apidoc",    "time": "2016-10-07T09:37:34.579Z",    "url": "http://apidocjs.com",    "version": "0.15.1"  }}
