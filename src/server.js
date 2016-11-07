@@ -30,8 +30,8 @@ var Likes = ["chevrol-bel-air"];
 var Comments = {
   "chevrol-bel-air": [{
     "date": new Date(),
-    "title": "Un bon bordeaux !",
-    "content": "J'ai bu le millésime 2009, parfait après une heure en carafe !"
+    "title": "Great wine from Bordeaux!",
+    "content": "The 2009 vintage was perfect! Great moment with awesome friends!"
   }]
 };
 
