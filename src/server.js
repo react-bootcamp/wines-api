@@ -331,7 +331,7 @@ app.post('/api/wines/:id/comments', function (req, res) {
         title: body.title,
         content: body.content
       };
-      Comments[id] = (Comments[id] || []).concat(newComment);
+      Comments[id] = [newComment].concat(Comments[id] || []).slice(0, 3);
       res.sendStatus(201);
     }
   }
