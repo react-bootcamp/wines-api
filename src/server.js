@@ -26,6 +26,7 @@ BordeauxWines.forEach(byId);
 BurgundyWines.forEach(byId);
 ChampagneWines.forEach(byId);
 LoireWines.forEach(byId);
+NormandieWines.forEach(byId);
 
 // Likes and Comments
 var Likes = ["chevrol-bel-air"];
