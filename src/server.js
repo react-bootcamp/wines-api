@@ -5,8 +5,9 @@ var BordeauxWines = require('./data/bordeaux-wines.json');
 var BurgundyWines = require('./data/burgundy-wines.json');
 var ChampagneWines = require('./data/champagne-wines.json');
 var LoireWines = require('./data/loire-wines.json');
+var NormandieWines = require('./data/normandie-wines.json');
 
-var Regions = ["Bordeaux", "Bourgogne", "Champagne", "Languedoc", "Loire"];
+var Regions = ["Bordeaux", "Bourgogne", "Champagne", "Languedoc", "Loire", "Normandie"];
 
 // Wines by Region
 var Wines = {
@@ -14,7 +15,8 @@ var Wines = {
   "Bourgogne": BurgundyWines,
   "Champagne": ChampagneWines,
   "Languedoc": [],
-  "Loire": LoireWines
+  "Loire": LoireWines,
+  "Normandie": NormandieWines
 }
 
 // Wines by Id
